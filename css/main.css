@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    color: white;
+}
+
+.header .layout{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.header .layout > div{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    transition: all 1s;
+}
+
+.layout .text{
+    border: 2px solid white;
+    width: 500px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.section1{
+    position: relative;
+    width:950px;
+    margin-top: 100px;
+}
+
+.section1 .text{
+    text-align: left;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.section1 .text h1{
+    font-size: 30px;
+}
+
+.section1 .text p{
+    color: gray;
+    font-size: 11px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.section2{
+    margin-top: 150px;
+}
+
+.head button{
+    width: 120px;
+    background-color: white;
+    border: 2px solid gray;
+    padding: 0px 10px;
+    height: 25px;
+    transition: all .7s;
+}
+
+.images{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images div{
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 256px;
+    height: 450px;
+    margin-top: 30px;
+    transition: all .7s;
+}
+
+.images div h1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 30px;
+}
+
+.deep{
+    background-image: url(../images/desktop/image-deep-earth.jpg);
+}
+
+.night{
+    background-image: url(../images/desktop/image-night-arcade.jpg);
+}
+
+.soc{
+    background-image: url(../images/desktop/image-soccer-team.jpg);
+}
+
+.grid{
+    background-image: url(../images/desktop/image-grid.jpg);
+}
+
+.from{
+    background-image: url(../images/desktop/image-from-above.jpg);
+}
+
+.poc{
+    background-image: url(../images/desktop/image-pocket-borealis.jpg);
+}
+
+.cur{
+    background-image: url(../images/desktop/image-curiosity.jpg);
+}
+
+.fish{
+    background-image: url(../images/desktop/image-fisheye.jpg);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav p{
+    color: gray;
+    font-size: 11px;
+}
+
+/* Hover */
+
+li:hover{
+    cursor: pointer;
+    scale: 1.2 1.2;
+}
+
+button:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.images div:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    scale: 1.03 1.03;
+}
